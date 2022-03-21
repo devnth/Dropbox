@@ -1,0 +1,531 @@
+* {
+
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: rgb(30, 25, 25);
+
+  background-color: rgba(255, 255, 255, 0.97);
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(30, 25, 25);
+}
+
+li {
+  list-style-type: none;
+
+}
+
+/* header starts */
+header {
+
+  background-color: rgb(255,255,255);
+  display: flex;
+  height: 41px;
+}
+
+header .logo {
+  display: flex;
+}
+
+header .logo img {
+  background-color: blue;
+  width: 66px;
+  height: 40px;
+  padding: 8px 5px 5px 5px;
+}
+
+#img {
+  background-color: rgb(255,255,255);
+  width: 110px;
+  height: 40px;
+  padding: 6px 5px 0px 10px;
+}
+
+header span {
+  font-size: 16px;
+  padding: 5px;
+  font-weight: 400;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+header .leftsection {
+  width: 64vw;
+}
+nav {
+  width: 1340px;
+}
+header nav .leftsection ul {
+  display: flex;
+  background-color: white;
+}
+
+nav li {
+margin: 9px;
+}
+nav li a{
+  margin-right: 15px;
+}
+
+nav button {
+  width: 120px;
+  font-weight: 700;
+  height: 30px;
+  color: rgb(247, 245, 242);
+  background-color: rgb(0, 97, 254);
+  border: none;
+  text-align: left;
+  padding-left: 10px;
+  margin: 5px;
+
+}
+nav button:hover{
+  background-color: rgb(121,172,255);
+  cursor: pointer;
+}
+
+header nav .rightsection {
+  display: flex;
+}
+
+header nav .first ul {
+  display: flex;
+}
+
+/* header ends */
+/*   Banner 1 starts */
+.banner-one {
+  display: flex;
+}
+
+.banner-one .leftsection {
+  width: 33vw;
+}
+
+.banner-one .rightsection {
+  width: 67vw;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B4C8E1;
+}
+
+.banner-one .rightsection img {
+  width: 490px;
+}
+
+.banner-one .leftsection {
+  display: flex;
+  flex-direction: column;
+    background-color: rgb(247, 245, 242);
+}
+
+.banner-one .leftsection .top {
+  display: flex;
+  flex-direction: column;
+  height:371px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px 20px 30px;
+
+}
+
+
+
+.banner-one .leftsection .top h1 {
+  height: 30vh;
+  text-align: centre;
+  font-size: 48px;
+  font-family: 'shark-Grotesk-23';
+  background-color: rgb(247, 245, 242);
+  letter-spacing: 3px;
+  font-weight: 500;
+  line-height: 45px;
+
+
+}
+
+.banner-one .leftsection .top button {
+  background-color: blue;
+  height: 8vh;
+  width: 28vw;
+  border: none;
+  font-size: 20px;
+  font-weight: 550;
+  color: rgb(247, 245, 242);
+  background-color: rgb(0, 97, 254);
+  text-align: left;
+  padding-left: 20px;
+}
+.banner-one .leftsection .top button:hover{
+  background-color: rgb(121,172,255);
+  cursor: pointer;}
+
+.banner-one .leftsection .bottom {
+  text-align: center;
+  background-color: rgb(238,233,226);
+  height: 229px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: AtlasGrotesk;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  padding: 0 30px 0 30px;
+}
+.banner-one .leftsection .bottom p{
+  text-align: center;
+}
+
+/* banner one ends */
+/* main section starts */
+.main {
+  background-color: rgb(247, 245, 242);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0 60px 0;
+}
+
+
+.main .middle {
+  margin: 50px 0 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  height: 25vh;
+  line-height: 38px;
+}
+
+.main .middle p {
+  line-height: 24px;
+}
+
+.main .last h1 {
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+/* main section ends */
+/* banner two starts */
+.banner-two {
+  display: flex;
+}
+
+.banner-two .leftsection {
+  width: 50vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 70px 0 70px;
+}
+
+.banner-two .leftsection button {
+  height: 100px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-width: thin;
+  border-color: rgb(202, 197, 190);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 15px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.banner-two .leftsection button:hover {
+  background-color: rgb(243, 240, 235);
+}
+
+.banner-two .rightsection {
+  width: 50vw;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(200, 175, 240);
+}
+
+.banner-two .rightsection img {
+  width: 750px;
+}
+
+/* banner two ends */
+/* bigsection one starts */
+.bigsection-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(247,245,242);
+  justify-content: center;
+  padding: 50px 0 50px 0;
+}
+
+.bigsection-one .top {
+  margin-bottom: 40px;
+}
+
+.bigsection-one .middle {
+  width: 65vw;
+  display: flex;
+  justify-content: center;
+}
+
+.bigsection-one .middle img {
+  width: 32.5vw;
+}
+
+.bigsection-one .middle .insider {
+  background-color: white;
+  min-height: 250px;
+  padding: 10px 40px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bigsection-one .middle .insider h1 {
+  margin: 0 0 10px 0;
+}
+
+.bigsection-one .middle .insider .button {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0px;
+}
+
+.bigsection-one .middle .insider button {
+  width: 490px;
+  height: 8vh;
+  color: white;
+  color: rgb(247, 245, 242);
+  background-color: rgb(0, 97, 254);
+  border: none;
+  text-align: left;
+  padding-left: 25px;
+  font-size: 17px;
+  font-weight: 550;
+
+}
+
+.bigsection-one .middle .insider button:hover{
+  background-color: rgb(121,172,255);
+  cursor: pointer;}
+
+.bigsection-one .middle .insider .leftbutton {
+  margin: 20px 0 0 0;
+}
+
+.bigsection-one .bottom {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.bigsection-one .bottom h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.bigsection-one .bottom a {
+  text-decoration: underline;
+}
+
+.bigsection-one .leftsection {
+  border-right: 1px solid rgb(202, 197, 190);
+}
+
+/* big section one ends */
+/* big section two starts */
+.bigsection-two {
+  background-color: rgb(247,245,242);
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.bigsection-two .top, .bigsection-two .bottom {
+  display: flex;
+  width: 65vw;
+  padding-bottom: 20px;
+}
+
+
+.bigsection-two img {
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.bigsection-two h3 {
+  margin-bottom: 10px;
+}
+
+.bigsection-two p {
+  margin-bottom: 40px;
+}
+
+/* big section two ends */
+/*   last section starts */
+.last-section {
+  background-color: rgb(30,25,25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.last-section h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: rgb(247,245,242);
+}
+
+.last-section .top {
+  margin-top: 10px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.last-section a {
+  text-decoration: underline;
+    color: rgb(247,245,242);
+}
+
+
+
+.last-section .middle {
+  background-color: rgb(155,0,50);
+  margin-top: 50px;
+  width: 70vw;
+  display: flex;
+}
+
+.last-section img {
+  width: 610px;
+}
+.last-section .middle h1 {
+  font-size: 24px;
+  text-align: left;
+  font-weight: 500;
+    color: rgb(247,245,242);
+}
+
+.last-section .middle .rightsection {
+  padding-left: 19px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(247,245,242);
+  justify-content: space-between;
+}
+
+.last-section .middle .rightsection .top a {
+  line-height: 40px;
+
+}
+.last-section .middle .rightsection .bottom1{
+  padding-bottom: 10px;
+}
+
+.last-section .middle .rightsection .top {
+  text-align: left;
+}
+
+.last-section .middle .rightsection .bottom {
+  padding-bottom: 20px;
+}
+
+.last-section .bottom {
+  display: flex;
+  width: 70vw;
+  padding-top: 40px;
+  justify-content: space-between;
+    color: rgb(247,245,242);
+}
+
+.last-section .bottom {
+  margin-top: 70px;
+  margin-bottom: 60px
+}
+
+.last-section .bottom .left {
+  width: 800px;
+}
+.last-section .bottom .left h1{
+  margin-top: 0;
+}
+
+.last-section .bottom button {
+  width: 300px;
+  height: 8vh;
+  color: rgb(247, 245, 242);
+  background-color: rgb(0, 97, 254);
+  border: none;
+
+  margin-right: 60px;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 550;
+
+}
+
+.last-section .bottom button:hover{
+  background-color: rgb(121,172,255);
+  cursor: pointer;
+}
+
+/* last session ends */
+/*  footer starts*/
+footer {
+  background-color: black;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .container {
+  display: flex;
+  color: rgb(247, 245, 242);
+  justify-content: space-around;
+  line-height: 30px;
+}
+
+footer li a {
+  color: rgb(247, 245, 242);
+  align-items: left;
+}
+
+footer h4 {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+footer .foot {
+  margin: 0 40px 0 40px;
+}
+/* footer ends */
